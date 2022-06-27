@@ -8,3 +8,13 @@
 body{
     background-color: black;
 }
+button {
+    width: 220px; 
+    height: 40px;
+    border-radius: 12px;
+    background-color: #1F51FF;
+    font-family: Ubuntu, sans-serif;
+    border: none;
+}
+button:hover {
+    background-color: #1F51FF;
