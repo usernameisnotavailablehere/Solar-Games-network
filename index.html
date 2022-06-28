@@ -78,3 +78,22 @@ a {
 <button class="gbutton"><a href="https://discord.gg/zxeTgRc5rF">Join the discord</a></button>
 
 
+
+ <body>
+    <canvas id="cv"></canvas>
+    <script src="ParticleJS.js"></script>
+    <script>
+      Particles.init({
+        selector: "#cv",
+        connectParticles: true,
+        maxParticles: 150,
+        opacity: "random",
+        color: "rgb(255,255,255)",
+        background: "firebrick",
+        fullScreen: true,
+      });
+    </script>
+  </body>
+</html>
+
+
