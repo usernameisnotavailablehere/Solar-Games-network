@@ -4,6 +4,23 @@
   <link rel="shortcut icon" href="/image/Rena.jpg">
 </head>
 <link rel="stylesheet" href="index.css">
+<body>
+    <canvas id="cv"></canvas>
+    <script src="/ParticleJS.js"></script>
+    <script>
+      Particles.init({
+        selector: "#cv",
+        connectParticles: true,
+        maxParticles: 150,
+        opacity: "random",
+        color: "rgb(255,255,255)",
+        background: "firebrick",
+        fullScreen: true,
+      });
+    </script>
+  </body>
+</html>
+
 <html>
 <head>
 <style>
@@ -79,21 +96,5 @@ a {
 
 
 
- <body>
-    <canvas id="cv"></canvas>
-    <script src="/ParticleJS.js"></script>
-    <script>
-      Particles.init({
-        selector: "#cv",
-        connectParticles: true,
-        maxParticles: 150,
-        opacity: "random",
-        color: "rgb(255,255,255)",
-        background: "firebrick",
-        fullScreen: true,
-      });
-    </script>
-  </body>
-</html>
-
+ 
 
