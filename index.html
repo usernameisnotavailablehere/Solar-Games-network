@@ -47,53 +47,5 @@
   gtag('config', 'G-PSBN232904');
 </script>
 
-<div class="gameslist">
-            
-            <h2>Action, Adventure, and Skill Games</h2>
-            <br>
-            <div id="buttonDiv"></div>
-            <!--ACTION SKILL ADVENTURE GAMES BELOW-->
-            <script type="text/javascript">
-                //start game code
-                
-                var buttonArr = [{
-                    "name": "Temple Run 2",
-                    "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
-                }, 
-            
-            ]
-                //end array for game links
-    
-                buttonArr.forEach(function(arrayItem) {
 
-                    //searchArr.push(arrayItem.name);
-                    let link = arrayItem.url;
-                    let name = arrayItem.name;
-                    let category = arrayItem.category;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
-    
-
-                    
-                } );
-                //end game code
-                let win;
-
-                function openGame(link) {
-                    if (win) {
-                        win.focus();
-                        return;
-                    }
-                    win = window.open();
-                    win.document.body.style.margin = '0';
-                    win.document.body.style.height = '100vh';
-                    const iframe = win.document.createElement('iframe');
-                    iframe.style.border = 'none';
-                    iframe.style.width = '100%';
-                    iframe.style.height = '100%';
-                    iframe.style.margin = '0';
-                    iframe.src = link;
-                    win.document.body.appendChild(iframe);
-                }
-            </script>
-            </div>
 
