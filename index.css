@@ -111,3 +111,90 @@ margin: 7px;
 
 }
 
+body {
+	background-color: black;
+	color: white;
+	font-family:  'Ubuntu', sans-serif;
+	border-radius: 8px;
+}
+
+.container {
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.box {
+	margin: auto;
+	background-color: rgb(0, 0, 0);
+	padding: 10px;
+	width: 400px;
+	border-radius: 8px;
+}
+
+#glist {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 400px;
+	height: 520px;
+	padding: 0;
+	text-align: center;
+	border-radius: 8px;
+}
+
+#gsearchbar {
+	outline: none;
+	width: 374px;
+	font-size: 16px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 12px;
+	margin-bottom: 10px;
+	transition: 0.2s ease;
+	border-radius: 8px;
+}
+
+#gsearchbar:focus {
+	background-color: rgb(0, 0, 0);
+	box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+}
+
+#glist h2 {
+	display: block;
+	color: white;
+	font: 18px;
+	border: 1px solid #060606;
+	margin: -3px 0 0 0;
+	background-color: #060606;
+	padding: 12px;
+	font-weight: bold;
+	user-select: none;
+	border-radius: 8px;
+}
+
+#glist a {
+	display: block;
+	text-decoration: inherit;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	border: 1px solid #000000;
+	margin-top: 3px;
+	background-color: #ff3b3b;
+	padding: 14px;
+	transition: 0.2s ease;
+	border-radius: 12px;
+}
+
+#glist a:hover {
+	background-color: #ff3b3b;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+}
+
+h3 {
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+   color: rgb(255, 59, 59);
+}
+
