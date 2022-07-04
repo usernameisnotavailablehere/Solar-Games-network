@@ -9,18 +9,7 @@ h2 {
   text-align: center;
  color: rgb(255, 59, 59);
 }
-button {
-    width: 250px;
-    height: 50px;
-    background-color: rgb(255, 59, 59);
-    border: none;
-    border-radius: 8px;
-    font-family: 'Ubuntu', sans-serif;
-    display: grid;
-    float: left;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
+
 }
 
 a {
