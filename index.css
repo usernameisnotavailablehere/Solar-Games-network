@@ -87,17 +87,18 @@ li a:hover {
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 button {
-width: 250px;
-height: 50px;
-background-color: rgb(255, 59, 59);
-border: none;
-border-radius: 8px;
-font-family: 'Ubuntu', sans-serif;
-display: grid;
-float: left;
-margin-left: 20px;
-margin-top: 20px;
-margin-right: 20px;}
+    width: 200px;
+    height: 48px;
+    background-color: rgb(255, 59, 59);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
 
 a {
 text-decoration: none;
