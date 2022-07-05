@@ -134,19 +134,18 @@ body {
 #gsearchbar {
 	outline: none;
 	width: 374px;
-	font-size: 16px;
-	border: 1px solid rgba(0, 0, 0, 0.3);
+	font-size: 20px;
+	border: 3px solid white;
 	padding: 12px;
 	margin-bottom: 10px;
 	transition: 0.2s ease;
-	border-radius: 8px;
+	border-radius: 7px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border: 3px, solid;
 }
 
-#gsearchbar:focus {
-	background-color: rgb(0, 0, 0);
-	box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.4);
-	border-radius: 8px;
-}
 
 #glist h2 {
 	display: block;
