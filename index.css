@@ -187,3 +187,13 @@ h3 {
    color: rgb(255, 59, 59);
 }
 
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#000000, #121212);
+    background-size: cover;
+    z-index: 1;
