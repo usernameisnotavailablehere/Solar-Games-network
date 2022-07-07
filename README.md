@@ -16,7 +16,3 @@ Host your own version
   
 
 
-![image](https://user-images.githubusercontent.com/96131117/177673541-5bdf0637-837e-449f-a797-386f9b0767f0.png)
-
-
-
