@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=FFFFFF&background=79385700&center=true&vCenter=true&lines=Hello+I+Am+Rena+;I+Code+HTML+And+Some+Css;If+Your+Reading+This+Hope+You+Have+A+Good+Day)](https://git.io/typing-svg)
+
 <h1 align="center">
 Rena Network | RN
 </h1>
