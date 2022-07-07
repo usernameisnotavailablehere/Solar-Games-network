@@ -8,6 +8,8 @@ h2 {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
  color: rgb(255, 59, 59);
+z-index: -1;
+background-color: transparent;
 }
 
 
@@ -29,6 +31,8 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   color: rgb(255, 59, 59);
+z-index: -1;
+background-color: transparent;
 }
 
 #cv{
