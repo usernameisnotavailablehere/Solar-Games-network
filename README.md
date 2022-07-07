@@ -16,7 +16,6 @@ Host your own version
   
 
 <a target="_blank" href=" https://discord.gg/zxeTgRc5rF%22%3E
-<img width="200px" alt="Join our Discord" src="![image](https://user-images.githubusercontent.com/96131117/177673104-2b008d21-f896-4e0f-8b10-e7a6ed3d8d9a.png)
-
+<img width="200px" alt="Join our Discord" src="https://media.discordapp.net/attachments/982791141277696080/994421239038869564/Join_Discord-logo_1.png"
 </a> 
 
