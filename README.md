@@ -1,11 +1,15 @@
 <h1 align="center">
-renagamer101.github.io
+Rena Network | RN
 </h1>
-
 
 <p align="center">
 <a target="_blank" href="https://discord.gg/zxeTgRc5rF">Discord</a> · 
-<a target="_blank" href="https://renagamer101.github.io">Live site</a> · 
+<a target="_blank" href="https://rena.gq">Live site</a> · 
+<a target="_blank" href="https://github.com/3kh0/3kh0.github.io/wiki">Wiki</a>
+</p>
+
+<div align='center'>
+ 
 
 
 Host your own version
