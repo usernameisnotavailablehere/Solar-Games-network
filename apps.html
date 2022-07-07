@@ -78,3 +78,20 @@ a {
 
 }
 </style>
+  
+  
+  
+  
+  
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+<div class="box">
+<input type="text" id="gsearchbar" onkeyup="document.querySelectorAll('#glist>a').forEach(l=>l.style.display=l.textContent.toUpperCase().includes(this.value.toUpperCase().replace(/ /g,''))?'block':'none')" autocomplete="off" spellcheck="false" placeholder="Search" />
+<div id="glist">
+<h2>Apps</h2>
+  <a href="https://node13.truemyth.ml/web/_aHR0cHM6Ly93d3cudGlrdG9rLmNvbQ==_/">Tiktok</a>
+  <a href="https://node13.truemyth.ml/web/_aHR0cHM6Ly93d3cueW91dHViZS5jb20=_/">Youtube</a>
