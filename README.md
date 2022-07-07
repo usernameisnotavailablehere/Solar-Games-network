@@ -10,6 +10,10 @@ Rena Network | RN
 
 <div align='center'>
  
+ 
+ <a target="_blank" href="https://discord.gg/wv6huJAwEv">
+<img width="200px" alt="Join our Discord" src="https://raw.githubusercontent.com/3kh0/3kh0.github.io/master/img/Join_Discord-logo.png">
+</a>
 
 
 Host your own version
