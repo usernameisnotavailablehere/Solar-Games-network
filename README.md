@@ -21,7 +21,7 @@ Host your own version
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/renagamer101/renagamer101.github.io)
 
 
- <a target="_blank" href="https://discord.gg/zxeTgRc5rF
+ <a target="_blank" href="https://discord.gg/zxeTgRc5rF">
 <img width="200px" alt="Join our Discord" src="https://raw.githubusercontent.com/3kh0/3kh0.github.io/master/img/Join_Discord-logo.png">
 </a>
 
