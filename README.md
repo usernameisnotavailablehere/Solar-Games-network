@@ -26,7 +26,19 @@ Host your own version
 </a>
 
 
-  <a href="https://github.com/renagamer101/renagamer101.github.io/graphs/contributors">
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <a href="https://github.com/renagamer101/renagamer101.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=renagamer101/renagamer101.github.io" />
 </a>
 
