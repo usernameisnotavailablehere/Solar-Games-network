@@ -102,6 +102,7 @@ justify-content: center;
 text-align: center;
 margin: 7px;
 
+}
 
 body {
 	background-color: black;
@@ -213,4 +214,3 @@ h3 {
 	text-shadow: 0px 0px 2px #131415;
 	font-family: 'Open Sans', sans-serif;
 }
-
