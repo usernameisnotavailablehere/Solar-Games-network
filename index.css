@@ -13,8 +13,8 @@ h2 {
 	background-color: transparent;
 	display: flex;
 	font-size: 100px;
-	margin-top: 32%;
-	margin-left: 108%;
+	margin-top: auto;
+	margin-left: auto;
 }
 
 a {
