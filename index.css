@@ -8,7 +8,12 @@ body {
 
 .center {
   display: flex;
-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
 }
 
 .center h2 {
@@ -378,8 +383,9 @@ body {
 }
 
 #text {
-	position: absolute;
-	width: 100%
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .overlay {
