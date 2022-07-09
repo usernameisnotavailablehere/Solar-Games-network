@@ -18,7 +18,7 @@ body {
 
 .center h2 {
   text-align: center;
-	  width: fit-content;
+width: fit-content;
 }
 h2 {
     font-family: 'Ubuntu', sans-serif;
@@ -28,6 +28,8 @@ h2 {
     display: flex;
     font-size: 100px;
 	align-items:center;
+	margin-left: 108%; 
+	margin-top: 32%;
 }
 
 a {
