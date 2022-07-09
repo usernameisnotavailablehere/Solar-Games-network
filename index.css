@@ -22,6 +22,7 @@ h2 {
     background-color: transparent;
     display: flex;
     font-size: 100px;
+	align-items:center;
 }
 
 a {
