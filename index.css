@@ -6,15 +6,23 @@ body {
 	background-color: black;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.center h2 {
+  text-align: center;
+}
 h2 {
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-	color: rgb(255, 59, 59);
-	background-color: transparent;
-	display: flex;
-	font-size: 100px;
-	margin-top: 32%;
-	margin-left: 108%;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: rgb(255, 59, 59);
+    background-color: transparent;
+    display: flex;
+    font-size: 100px;
+    margin-top: 32%;
+    margin-left: 108%;
 }
 
 a {
