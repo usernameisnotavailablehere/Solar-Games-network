@@ -135,295 +135,143 @@ h3 {
 	text-shadow: 0px 0px 2px #131415;
 	font-family: 'Open Sans', sans-serif;
 }
-
 @media only screen and (max-width: 1915px) {
-	h2 {
-		margin-top: 15%;
-		margin-left: 72%;
-	}
+body {
+  margin: 0 auto;
+  font-family:  'Ubuntu', sans-serif;
+  overflow: hidden;
+  background-image: url('bkgrnd2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 
-	.container {
-		right: 100%;
-	}
 }
 
 .container {
-	padding: 20px;
-	font-family: 'Quicksand', sans-serif;
-	position: absolute;
-	left: 37%;
+    padding: 20px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .box {
-	margin: auto;
-	background-color: transparent;
-	padding: 10px;
-	width: 400px;
+    margin: auto;
+    background-color: transparent;
+    padding: 10px;
+    width: 400px;
 }
-
 #glist {
-	overflow-x: hidden;
-	overflow-y: scroll;
-	width: 400px;
-	height: 465px;
-	padding: 0;
-	text-align: center;
-	border-radius: 12px;
-	font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 400px;
+    height: 465px;
+    padding: 0;
+    text-align: center;
+    border-radius: 12px;
+    font-family:  'Ubuntu', sans-serif;
 }
-
 #glist::-webkit-scrollbar {
-	display: none;
+    display: none;
 }
-
 #gsearchbar {
-	outline: none;
-	width: 90.5%;
-	font-size: 16px;
-	padding: 12px;
-	margin-bottom: 10px;
-	margin-left: 8px;
-	transition: 0.2s ease;
-	cursor: text;
-	font-family: 'Quicksand', sans-serif;
+    outline: none;
+    width: 379px;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 10px;
+    transition: 0.2s ease;
+  cursor:text;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #glist h2 {
-	display: block;
-	color: rgb(255, 59, 59);
-	font-size: 18px;
-	border: 1px solid rgb(56, 56, 56);
-	margin: -1px 0 0 0;
-	background-color: rgb(56, 56, 56);
-	padding: 12px;
-	font-weight: bold;
-	user-select: none;
-	border-radius: 12px;
+    display: block;
+    color: #4287f5;
+    font: 18px;
+    border: 1px solid #1D1D1D;
+    margin: -1px 0 0 0;
+    background-color: #1D1D1D;
+    padding: 12px;
+    font-weight: bold;
+    user-select: none;
 }
 
 #glist a {
-	display: block;
-	text-decoration: inherit;
-	color: rgb(255, 59, 59);
-	border: 1px solid rgb(56, 56, 56);
-	margin-top: -1px;
-	background-color: rgb(56, 56, 56);
-	padding: 12px;
-	transition: 0.2s ease;
-	font-family: 'Quicksand', sans-serif;
-	border-radius: 12px;
-	font-size: 18px;
+    display: block;
+    text-decoration: inherit;
+    color: #4287f5;
+    border: 1px solid #1D1D1D;
+    margin-top: -1px;
+    background-color: #1D1D1D;
+    padding: 12px;
+    transition: 0.2s ease;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #glist a:hover {
-	font-size: larger;
+    font-size: larger;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
+
+.iframe {
+  display: block;
+  background: #000;
+  border: none;
+  height: 100vh;
+  width: 100vw;
 }
 
 input {
-	font-family: 'Quicksand', sans-serif;
-	text-align: center;
-	color: rgb(255, 59, 59);
-	border: none;
-	border-radius: 12px;
-	padding: 6px;
-	width: 245px;
-	background-color: rgb(56, 56, 56);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #4287f5;
+    border: none;
+    border-radius: 12px;
+    padding: 6px;
+    width: 245px;
+    background-color: #1D1D1D;
 }
 
 ::placeholder {
-	color: rgb(255, 59, 59);
-	font-weight: lighter;
+    color: #4287f5;
+    font-weight: bold;
 }
+
+.center-screen {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    margin-top: -100px;
+    margin-left: -100px;
+  }
 
 .header {
-	padding: 5px;
-	text-align: center;
-	background: #d1e8f1;
-	color: #47C1FF;
-	font-size: 8px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 600px;
-	border-radius: 10px;
-	position: absolute;
-	top: 18%;
-	left: 39%;
-	margin-top: -100px;
-	margin-left: -100px;
+  padding: 5px;
+  text-align: center;
+  background: #1D1D1D;
+  color: rgb(0, 0, 0);
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 600px;
+  border-radius: 10px;
+  position: absolute;
+  top: 18%; 
+  left: 39%;
+  margin-top: -100px;
+  margin-left: -100px;
 }
-
 a {
-	text-decoration: none;
-	color: #47C1FF;
+  text-decoration:none;
+  color:#4287f5;
 }
-
-button {
-	width: 250px;
-	height: 50px;
-	background-color: rgb(255, 59, 59);
-	border: none;
-	border-radius: 8px;
-	font-family: 'Ubuntu', sans-serif;
-	display: grid;
-	float: left;
-	margin-left: 20px;
-	margin-top: 20px;
-	margin-right: 20px;
+.header-link {
+  color:#4287f5;
+  font-size: 18px;
 }
-
-a {
-	text-decoration: none;
-	color: black;
-	font-size: 25px;
-	font-family: 'Ubuntu', sans-serif;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	margin: 7px;
-}
-
-body {
-	font-family: 'Lato', sans-serif;
-}
-
-.overlay {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0, 0.9);
-	overflow-x: hidden;
-	transition: 0.5s;
-	background-color: #000000;
-}
-
-.overlay-content {
-	position: relative;
-	top: 25%;
-	width: 100%;
-	text-align: center;
-	margin-top: 30px;
-}
-
-.overlay a {
-	padding: 8px;
-	text-decoration: none;
-	font-size: 36px;
-	color: #ff3b3b;
-	display: block;
-	transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-	color: #0a0909;
-}
-
-.overlay .closebtn {
-	position: absolute;
-	top: 20px;
-	right: 45px;
-	font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-	.overlay a {
-		font-size: 20px;
-	}
-
-	.overlay .closebtn {
-		font-size: 40px;
-		top: 15px;
-		right: 35px;
-	}
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #000000;
-}
-
-li {
-	float: left;
-}
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a:hover {
-	background-color: #000000;
-}
-
-body {
-	font-family: 'Lato', sans-serif;
-}
-
-#text {
-	position: absolute;
-}
-
-.overlay {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0, 0.9);
-	overflow-x: hidden;
-	transition: 0.5s;
-	background-color: #000000;
-}
-
-.overlay-content {
-	position: relative;
-	top: 20%;
-	width: 100%;
-	text-align: center;
-	margin-top: 30px;
-}
-
-.overlay a {
-	padding: 8px;
-	text-decoration: none;
-	font-size: 36px;
-	color: #ff3b3b;
-	display: block;
-	transition: 0.3s;
-	font-size: 45px;
-}
-
-.overlay a:hover, .overlay a:focus {
-	color: #474747;
-}
-
-.overlay .closebtn {
-	position: absolute;
-	top: 20px;
-	right: 45px;
-	font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-	.overlay a {
-		font-size: 20px;
-	}
-
-	.overlay .closebtn {
-		font-size: 40px;
-		top: 15px;
-		right: 35px;
-	}
 }
