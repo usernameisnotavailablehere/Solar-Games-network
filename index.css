@@ -156,9 +156,10 @@ h3 {
 
 .box {
 	margin: auto;
-	background-color: transparent;
-	padding: 10px;
+	background-color: black;
+	padding: 2px;
 	width: 400px;
+    border-radius: 11px;
 }
 
 #glist {
@@ -204,7 +205,7 @@ h3 {
 #glist a {
 	display: block;
 	text-decoration: inherit;
-	color: rgb(255, 59, 59);
+	color: rgb(66, 135, 245);
 	border: 1px solid rgb(56, 56, 56);
 	margin-top: -1px;
 	background-color: rgb(56, 56, 56);
@@ -231,7 +232,7 @@ input {
 }
 
 ::placeholder {
-	color: rgb(255, 59, 59);
+	color: rgb(66, 135, 245);
 	font-weight: lighter;
 }
 
