@@ -136,7 +136,7 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 1915px) {
+/*@media only screen and (max-width: 1915px) {
 	h2 {
 		margin-top: 15%;
 		margin-left: 72%;
@@ -145,7 +145,7 @@ h3 {
 	.container {
 		right: 100%;
 	}
-}
+}*/
 
 .container {
 	padding: 20px;
@@ -254,10 +254,6 @@ input {
 	margin-left: -100px;
 }
 
-a {
-	text-decoration: none;
-	color: #47C1FF;
-}
 
 button {
 	width: 250px;
@@ -282,6 +278,7 @@ a {
 	justify-content: center;
 	text-align: center;
 	margin: 7px;
+	color: #47C1FF;
 }
 
 body {
