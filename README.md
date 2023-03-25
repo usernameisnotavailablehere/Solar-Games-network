@@ -5,7 +5,7 @@ Rena Network | RN
 </h1>
 
 <p align="center">
-<a target="_blank" href="https://discord.gg/zxeTgRc5rF">Discord</a> · 
+<a target="_blank" href="https://discord.gg/kG62BTDx">Discord</a> · 
 <a target="_blank" href="https://rena.gq">Live site</a> · 
 
 </p>
